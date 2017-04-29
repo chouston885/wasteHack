@@ -65,24 +65,39 @@
               </div>
           </div>
 
-          <img class="materialboxed" width=400" src="image/leaf.jpg">
+        <div class="divider"></div>
+         <div class="section">
+          <h5>Can I recycle?</h5>
+             <p>Enter the items you wish to recycle<p>
+              <input type="text" id="postCodeInput"></input>
+              <a class="waves-effect waves-light btn green darken-4" id="postCodeButton" onclick="findCollectionDate()">Find my collection date</a>
+             <p id="postCodeOutput"></p>
+         </div>
+          <img class="materialboxed" width="400" src="image/leaf.jpg">
 
       </div>
     </body>
-    <br>
+   <script>
+        function findCollectionDate(){
+            if(document.getElementById('postCodeInput').value=="Plastic bottle"){
+                document.getElementById('postCodeOutput').innerHTML="You can recycle that in your black bin";
+             }else if(document.getElementById('postCodeInput').value=="Microwave"){
+                 document.getElementById('postCodeOutput').innerHTML="Recycle this in your local recycle centre: Alexandra Park";
 
-
-
-
-
-    <br>
-
+             }
+             
+             else{
+                document.getElementById('postCodeOutput').innerHTML="You can recycle that in your red bin";
+             }
+        
+        }
+    </script>
 
     <footer class="page-footer green">
         <div class="container green">
             <div class="row green">
                 <div class="green">
-                    <img class="materialboxed" width=100" src="image/belfastcc%202.png"
+                    <img class="materialboxed" width="100" src="image/belfastcc%202.png">
                     <h5 class="white-text"></h5>
                     <p class="grey-text text-lighten-4">In partnership with Belfast City Council.</p>
                 </div>
