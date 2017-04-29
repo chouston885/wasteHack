@@ -1,44 +1,46 @@
-  <!DOCTYPE html>
-  <html>
-    <head>
-      <!--Import Google Icon Font-->
-      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+<!DOCTYPE html>
+<html>
 
-      <!--Let browser know website is optimized for mobile-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    </head>
+<head>
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
 
-    <body>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
     <script>
         $(document).ready(function () {
             $('ul.tabs').tabs();
         });
     </script>
-      <!--Import jQuery before materialize.js-->
-      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-      <script type="text/javascript" src="js/materialize.min.js"></script>
-
-      <nav>
-        <div class="nav-wrapper">
-          <a href="#" class="right brand-logo">Logo</a>
-          <ul id="nav-mobile" class="left hide-on-med-and-down">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="where.html">Where</a></li>
-            <li><a href="what.html">What</a></li>
-            <li><a href="when.html">When</a></li>
-          </ul>
-        </div>
-      </nav>
-         <!--Import jQuery before materialize.js-->
+    <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
 
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="right brand-logo">Logo</a>
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="where.html">Where</a></li>
+                <li><a href="what.html">What</a></li>
+                <li><a href="when.html">When</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <div class="container">
+    <h3>Which collection of bins do you have?</h3>
     <div class="collection">
-        <a href="#1set" class="collection-item">Compost bin, Recycling bin, Purple Recycling</a>
-        <a href="#2set" class="collection-item">Black Recycling, Red Recycling Box</a>
-        <a href="#3set" class="collection-item">Green Food Waste Bin</a>
+        <a href="#1set" class="collection-item">Compost bin, Recycling bin, Purple recycling box</a>
+        <a href="#2set" class="collection-item">Black recycling box, Red recycling box, Green food waste bin </a>
+        <a href="#3set" class="collection-item">Blue recycling box, Red recycling box, Green recycling box, Green food waste bin</a>
     </div>
 
 
@@ -46,7 +48,7 @@
     <div id="1set">
         <ul id="tabs-swipe-demo" class="tabs">
             <li class="tab col s3"><a href="#1compostBin">Compost bin</a></li>
-            <li class="tab col s3"><a class="active" href="#1recyclingBin"> Recycling bin</a></li>
+            <li class="tab col s3"><a  href="#1recyclingBin"> Recycling bin</a></li>
             <li class="tab col s3"><a href="#1purpleRecycling">Purple Recycling Bin</a></li>
         </ul>
         <div id="1compostBin" class="col s12  brown lighten-5">
@@ -166,7 +168,6 @@
             </div>
         </div>
     </div>
-    </div>
 
 
     <!--One for each bin is -->
@@ -176,10 +177,10 @@
             <li class="tab col s3"><a href="#2redRecyclingBox">	Red recycling box</a></li>
             <li class="tab col s3"><a href="#2greenFoodWasteBin">Green food waste bin  </a></li>
         </ul>
-        <div id="2blackRecyclingBox" class="col s12  brown lighten-5">
+        <div id="2blackRecyclingBox" class="col s12 blue-grey lighten-5">
             <div class="row">
                 <div class="col s12 m12">
-                    <div class="card brown">
+                    <div class="card black">
                         <div class="card-content white-text">
                             <span class="card-title">Black recycling box</span>
                             <p>I can recycle:
@@ -190,7 +191,7 @@
             </div>
             <div class="row">
                 <div class="col s12 m4 l4">
-                    <div class="card brown-light-4">
+                    <div class="card grey lighten-4">
                         <div class="card-content black-text ">
                             <p>Paper</p>
                             <p>Plastic bottles</p>
@@ -199,7 +200,7 @@
                     </div>
                 </div>
                 <div class="col s12 m4 l4">
-                    <div class="card brown-light-4">
+                    <div class="card grey lighten-4">
                         <div class="card-content black-text ">
                             <p>Food and drink tins </p>
                             <p>Aerosols </p>
@@ -208,7 +209,7 @@
                     </div>
                 </div>
                 <div class="col s12 m4 l4">
-                    <div class="card brown-light-4">
+                    <div class="card grey lighten-4">
                         <div class="card-content black-text">
                             <p>Clean aluminium foil- please put in separate bag </p>
 
@@ -217,13 +218,13 @@
                 </div>
             </div>
         </div>
-        
-        <div id="2redRecyclingBox" class="col s12 light-blue lighten-5">
+
+        <div id="2redRecyclingBox" class="col s12 red lighten-5">
             <div class="row">
                 <div class="col s12 m12">
-                    <div class="card blue darken-4">
+                    <div class="card red darken-4">
                         <div class="card-content white-text">
-                            <span class="card-title">Red Recycling box</span>
+                            <span class="card-title">Red recycling box</span>
                             <p>I can recycle:
                             </p>
                         </div>
@@ -232,7 +233,7 @@
             </div>
             <div class="row">
                 <div class="col s12 m4 l4">
-                    <div class="card blue-light-4">
+                    <div class="card red-light-4">
                         <div class="card-content black-text ">
                             <p>Cardboard</p>
                             <p>Glass bottles and jars </p>
@@ -241,7 +242,7 @@
                     </div>
                 </div>
                 <div class="col s12 m4 l4">
-                    <div class="card blue-light-4">
+                    <div class="card red-light-4">
                         <div class="card-content black-text ">
                             <p>Textiles- please put in separate bag</p>
                             <p>Batteries- please put in separate bag</p>
@@ -257,10 +258,10 @@
                 </div>
             </div>
         </div>
-        <div id="2greenFoodWasteBin" class="col s12 deep-purple lighten-5">
+        <div id="2greenFoodWasteBin" class="col s12 light-green lighten-5">
             <div class="row">
                 <div class="col s12 m12">
-                    <div class="card purple darken-4">
+                    <div class="card green darken-4">
                         <div class="card-content white-text">
                             <span class="card-title">Green food waste bin</span>
                             <p>I can recycle:
@@ -269,56 +270,200 @@
                     </div>
                 </div>
             </div>
-                <div class="row">
-                    <div class="col s12 m4 l4">
-                        <div class="card blue-light-4">
-                            <div class="card-content black-text ">
-                                <p>Paper</p>
-                                <p>Dry cardboard</p>
-                                <p>Aerosol cans </p>
-                                <p>Food and drink cans </p>
-                            </div>
+            <div class="row">
+                <div class="col s12 m4 l4">
+                    <div class="card blue-light-4">
+                        <div class="card-content black-text ">
+                            <p>Paper</p>
+                            <p>Dry cardboard</p>
+                            <p>Aerosol cans </p>
+                            <p>Food and drink cans </p>
                         </div>
                     </div>
-                    <div class="col s12 m4 l4">
-                        <div class="card blue-light-4">
-                            <div class="card-content black-text ">
-                                <p>Food and drink cartons e.g. milk or juice</p>
-                                <p>Clean aluminium foil and foil dishes</p>
-                                <p>Magazines / catalogues</p>
-                                <p>Biscuit tins</p>
-                            </div>
+                </div>
+                <div class="col s12 m4 l4">
+                    <div class="card blue-light-4">
+                        <div class="card-content black-text ">
+                            <p>Food and drink cartons e.g. milk or juice</p>
+                            <p>Clean aluminium foil and foil dishes</p>
+                            <p>Magazines / catalogues</p>
+                            <p>Biscuit tins</p>
                         </div>
                     </div>
-                    <div class="col s12 m4 l4">
-                        <div class="card blue-light-4">
-                            <div class="card-content black-text">
-                                <p> Soft back books </p>
-                                <p>Toilet roll tubes </p>
-                                <p>Fruit and vegetable peelings</p>
-                                <p>Plastic pots, tubs and trays </p>
-                                <p>Plastic bottles</p>
-                            </div>
+                </div>
+                <div class="col s12 m4 l4">
+                    <div class="card blue-light-4">
+                        <div class="card-content black-text">
+                            <p> Soft back books </p>
+                            <p>Toilet roll tubes </p>
+                            <p>Fruit and vegetable peelings</p>
+                            <p>Plastic pots, tubs and trays </p>
+                            <p>Plastic bottles</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--One for each bin is -->
+    <div id="3set">
+        <ul id="tabs-swipe-demo" class="tabs">
+            <li class="tab col s3"><a href="#3blueRecyclinBin">Blue recycling box</a></li>
+            <li class="tab col s3"><a href="#3redRecyclingBox"> Red recycling box</a></li>
+            <li class="tab col s3"><a href="#3greenRecyclingBox">Green recycling box</a></li>
+            <li class="tab col s3"><a href="#3greenFoodWasteBin">Green food waste bin</a></li>
+        </ul>
+        <div id="3blueRecyclinBin" class="col s12 light-blue lighten-5">
+            <div class="row">
+                <div class="col s12 m12">
+                    <div class="card blue darken-4">
+                        <div class="card-content white-text">
+                            <span class="card-title">Blue recycling box</span>
+                            <p>I can recycle:
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m6 l6">
+                    <div class="card blue-light-4">
+                        <div class="card-content black-text ">
+                            <p class="text-blue text-darken"> Please place all below in a separate bag</p>
+                            <p>Paper (shredded paper)</p>
+                            <p>Textile</p>
+                            <p>Foil </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l6">
+                    <div class="card brown-light-4">
+                        <div class="card-content black-text ">
+                            <p>Batteries-please place in a separate bag</p>
+                            <p>Hand tools</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-    <!--One for each bin is -->
-    <div id="3set">
-        <ul id="tabs-swipe-demo" class="tabs">
-            <li class="tab col s3"><a href="#3blueRecyclinBin">Blue recycling box</a></li>
-            <li class="tab col s3"><a class="active" href="#3redRecyclingBox"> Red recycling box</a></li>
-            <li class="tab col s3"><a href="#3greenRecyclingBox">Green recycling box</a></li>
-            <li class="tab col s3"><a href="#3greenFoodWasteBin">Green food waste bin</a></li>
-        </ul>
-        <div id="3blueRecyclinBin" class="col s12 blue">Blue recycling box</div>
-        <div id="3redRecyclingBox" class="col s12 red"> Red recycling box</div>
-        <div id="3greenRecyclingBox" class="col s12 green">Green recycling box</div>
-        <div id="3greenFoodWasteBin" class="col s12 green">Green food waste bin </div>
+    </div>
+    <div id="3redRecyclingBox" class="col s12 red lighten-5">
+        <div class="row">
+            <div class="col s12 m12">
+                <div class="card red darken-4">
+                    <div class="card-content white-text">
+                        <span class="card-title">Red recycling box</span>
+                        <p>I can recycle:
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m6 l6">
+                <div class="card blue-light-4">
+                    <div class="card-content black-text ">
+                        <p>Food and drink cans</p>
+                        <p>Biscuit tins </p>
+                        <p>Aerosol cans </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l6">
+                <div class="card brown-light-4">
+                    <div class="card-content black-text ">
+                        <p>Food and drink cartons </p>
+                        <p>Plastic bottles </p>
+                        <p>Plastic pots, tubs and trays </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-      
-    </body>
-  </html>
+    <div id="3greenRecyclingBox" class="col s12 light-green lighten-5">
+        <div class="row">
+            <div class="col s12 m12">
+                <div class="card green darken-4">
+                    <div class="card-content white-text">
+                        <span class="card-title">Green recycling box</span>
+                        <p>I can recycle:
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m6 l6">
+                <div class="card blue-light-4">
+                    <div class="card-content black-text ">
+                        <p> Glass bottles and jars(no broken glass)</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l6">
+                <div class="card brown-light-4">
+                    <div class="card-content black-text ">
+                        <p>Cardboard </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+    <div id="3greenFoodWasteBin" class="col s12 green lighten-5">
+
+        <div class="row">
+            <div class="col s12 m12">
+                <div class="card light-green darken-2">
+                    <div class="card-content white-text">
+                        <span class="card-title">Green Food waste bin</span>
+                        <p>I can recycle:
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m4 l4">
+                <div class="card blue-light-4">
+                    <div class="card-content black-text ">
+                        <p> Meat, fish and cheese </p>
+                        <p>Fruit and veg </p>
+                        <p>Bread, cakes and pastries </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4 l4">
+                <div class="card brown-light-4">
+                    <div class="card-content black-text ">
+                        <p>Rice, beans and pasta </p>
+                        <p>	Teabags and coffee grounds</p>
+                        <p>Potato and vegetable peelings </p>
+
+                    </div>
+                </div>
+            </div>
+             <div class="col s12 m4 l4">
+                <div class="card brown-light-4">
+                    <div class="card-content black-text ">
+                        <p>Any other leftover food </p>
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+</body>
+
+</html>
