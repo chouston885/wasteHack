@@ -32,9 +32,16 @@
         <div class="divider"></div>
         <div class="section">
           <h5>When can I Recycle in Belfast?</h5>
-          <p>Insert relevant informaiton here.</p>
+          <p>Please enter your postcode to find your collection date<p>
+          <input type="text" id="postCodeInput"></input>
+          <a class="waves-effect waves-light btn green darken-4" id="postCodeButton" onclick="findCollectionDate()">Find my collection date</a>
+          <p id="postCodeOutput"></p>
         </div>
-
+        <br>
+        </br>
+        <br>
+        </br>
+        <br>
     </body>
 
   </div>
@@ -56,5 +63,11 @@
         </div>
       </div>
     </footer>
+    <script>
+        function findCollectionDate(){
+            document.getElementById('postCodeOutput').innerHTML="Your collection has been changed from 1st of May, to 3rd of May due to the Bank Holiday weekend.";
+        }
+    </script>
+
   </html>
   </html>
