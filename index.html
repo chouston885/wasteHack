@@ -13,13 +13,17 @@
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script>
+            $('.carousel.carousel-slider').carousel({fullWidth: true});
+
+          </script>
       <nav>
           <div class="nav-wrapper green">
               <a href="#" class="right brand-logo">Logo</a>
               <ul id="nav-mobile" class="left hide-on-med-and-down">
                   <li><a href="index.html">Home</a></li>
-                  <li><a href="where.html">Where</a></li>
                   <li><a href="what.html">What</a></li>
+                  <li><a href="where.html">Where</a></li>
                   <li><a href="when.html">When</a></li>
               </ul>
           </div>
@@ -36,31 +40,31 @@
               <p>Welcome to OnePlanet Belfast. We are your one-stop-shop for information on Recycling in Belfast. </p>
               <p>You can find information on Where to Recycle, What to Recycle and When to Recycle. </p>
           </div>
-          <div class="divider"></div>
-          <div class="section">
-              <h5>Section 2</h5>
-              <p>Stuff</p>
+
+          <div class="carousel carousel-slider center" data-indicators="true">
+              <div class="carousel-fixed-item center">
+                  <a class="btn waves-effect white grey-text darken-text-2">button</a>
+              </div>
+              <div class="carousel-item red white-text" href="#one!">
+                  <h2>First Panel</h2>
+                  <p class="white-text">This is your first panel</p>
+              </div>
+              <div class="carousel-item amber white-text" href="#two!">
+                  <h2>Second Panel</h2>
+                  <p class="white-text">This is your second panel</p>
+              </div>
+              <div class="carousel-item green white-text" href="#three!">
+                  <h2>Third Panel</h2>
+                  <p class="white-text">This is your third panel</p>
+              </div>
+              <div class="carousel-item blue white-text" href="#four!">
+                  <h2>Fourth Panel</h2>
+                  <p class="white-text">This is your fourth panel</p>
+              </div>
           </div>
 
 
-
-          <ul class="collapsible" data-collapsible="accordion">
-              <li>
-                  <div class="collapsible-header"><span class="new badge">4</span><i class="material-icons">filter_drama</i>First</div>
-                  <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
-              </li>
-              <li>
-                  <div class="collapsible-header"><span class="badge">1</span><i class="material-icons">place</i>Maps</div>
-                  <div class="collapsible-body"></div>
-              </li>
-          </ul>
       </div>
-
-
-
-
-
-
     </body>
     <br>
 
